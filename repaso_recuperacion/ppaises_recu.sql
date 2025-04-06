@@ -9,6 +9,8 @@ c integer;
 begin 
 for vnomp in select * from paises loop
 resultado = resultado ||'pais: '|| vnomp.nomep || E'\n';
+c = 0;
+-- Inicializamos o contador de aeroportos a 0 para cada pais
 for vnomea in select nomea from aeroportos where codigop = vnomp.codigop loop
 resultado = resultado ||' '|| vnomea.nomea || E'\n';
 c = c + 1;

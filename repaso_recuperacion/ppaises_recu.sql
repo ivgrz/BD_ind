@@ -1,3 +1,5 @@
+/*
+creado por: Ivan Gutierrez */
 create or replace procedure ppaises()
 language plpgsql
 as $$

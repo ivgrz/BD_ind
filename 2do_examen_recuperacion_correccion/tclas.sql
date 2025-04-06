@@ -1,3 +1,6 @@
+/* 2do_examen_recuperacion_correccion/tclas.sql
+-- drop trigger if exists tclas on non_estructuras;
+*/
 drop trigger if exists tclas on non_estructuras; 
 create or replace function ftclas() returns trigger language plpgsql as $$
 declare

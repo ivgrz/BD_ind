@@ -1,3 +1,8 @@
+/* 
+    Autor:  Ivan Gutierrez
+    
+    Descripcion: Procedimiento que recibe el nombre de un museo y devuelve la lista de visitantes y la cantidad de ellos.
+*/
 create or replace procedure pmuseos_1(nomus varchar)
 language plpgsql
 as $$

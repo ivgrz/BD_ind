@@ -1,4 +1,7 @@
-/*Procedimiento pdescubridores que: Muestre nombre y especialidad de todos los descubridores y para cada uno de ellos el nombre y la fecha de sus hallazgos, si un descubridor no teiene halazgos debe imprimirse el mensaje 'descubridor sin hallazgos' tambien debe imprimirse el numero de hallazgos de cada descubridor */
+/*
+El Procedimiento pdescubridores que: Muestre nombre y especialidad de todos los descubridores y para cada uno de ellos el nombre y la fecha de sus hallazgos, si un descubridor no teiene halazgos debe imprimirse el mensaje 'descubridor sin hallazgos' tambien debe imprimirse el numero de hallazgos de cada descubridor */
+
+
 
 create or replace procedure pdescubridores_1()
 language plpgsql

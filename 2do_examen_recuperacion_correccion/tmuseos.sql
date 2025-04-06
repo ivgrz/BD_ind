@@ -1,3 +1,4 @@
+//-- 2do_examen_recuperacion_correccion/tmuseos.sql
 drop trigger if exists tmuseos on museos; 
 create or replace function ftmuseos() returns trigger language plpgsql as $$
 declare
